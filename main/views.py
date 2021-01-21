@@ -15,3 +15,13 @@ def second(request):
 
 def third(request):
     return HttpResponse("This is page test 3!")
+
+
+def add(request):
+    return render(request, "addindex.html")
+
+def change(request):
+    return render(request, "changeindex.html")
+
+def delete(request):
+    return render(request, "deleteindex.html")
