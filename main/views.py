@@ -1,6 +1,5 @@
 from django.shortcuts import render, HttpResponse
 from .models import ToDo
-from .models import Book
 
 
 def homepage(request):
@@ -30,5 +29,3 @@ def change(request):
 def delete(request):
     return render(request, "deleteindex.html")
 
-def books(request):
-    return render(request, "books.html")
