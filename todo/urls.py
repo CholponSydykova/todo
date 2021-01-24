@@ -29,10 +29,6 @@ urlpatterns = [
     path("change/", change),
     path("delete/", delete),
     path("books/", books , name ="books"),
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ae1ac2a66968e4b0c6fb4d4c9c93e716aa478c95
-]   + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) \
-    + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    
+    ]   +static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)\
+    +static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
