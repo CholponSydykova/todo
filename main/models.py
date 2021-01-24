@@ -7,9 +7,15 @@ class ToDo(models.Model):
     is_closed = models.BooleanField(default=False)
     is_favorite = models.BooleanField(default=False)
 
+<<<<<<< HEAD
 class Book (models.Model):
     title = models.CharField(max_length=100)
     subtitle = models.CharField(max_length=150)
+=======
+class Book(models.Model):
+    title = models.CharField(max_length=100)
+    subtitle = models.CharField(max_length=100)
+>>>>>>> ae1ac2a66968e4b0c6fb4d4c9c93e716aa478c95
     description = models.TextField()
     price = models.IntegerField()
     genre = models.CharField(max_length=50)

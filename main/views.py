@@ -32,4 +32,9 @@ def delete(request):
 
 def books(request): 
     books = Book.objects.all()
+<<<<<<< HEAD
     return render(request, "books.html" , {"books" : books})
+=======
+    return render(request, "books.html" , {"books" : books})
+
+>>>>>>> ae1ac2a66968e4b0c6fb4d4c9c93e716aa478c95
